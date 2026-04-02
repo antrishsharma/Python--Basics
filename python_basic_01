@@ -1,0 +1,26 @@
+#python basic Day 01
+#syntax,variables, datatype's and  basic I/0
+#Python is indentation based
+print("Hello Antrish!")  #print statement
+
+#q1.) Wap to print Hello World!  , Welcome To Python ?
+
+print("Hello World!")
+print("Welcome to Python")
+
+
+#Variables---- is a memory box which store information and then you name it.
+name="Antrish"  #string
+age= 18  #integer-- whole number
+height=5.9  #float-- Decimal value
+
+print(name,age,height)
+
+
+#q2.) WAP to ask user to enter there detail ?
+name= input("Enter your Name : )
+age= int(input("Enter your age : ))
+
+
+print(f"My Name is {name}, Iam {age} year old.")
+
