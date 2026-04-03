@@ -1,0 +1,9 @@
+#python_pratice_set [Question's/Program's]
+
+#Q1.)
+city = "Jammu"
+Population = 18
+is_capital = False
+
+print(f"{city} has a population of {Population} million. it is a captial ? {is_capital} ")
+
