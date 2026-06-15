@@ -1,0 +1,15 @@
+name = input("Enter your name : ")
+
+print(len(name))
+
+print(name.endswith("sh"))
+
+print(name.count("n"))
+
+print(name.capitalize())
+
+print(name.find("t"))
+
+print(name.replace("ri","ir"))
+
+print(name)
