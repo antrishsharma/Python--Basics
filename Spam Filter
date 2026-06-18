@@ -1,0 +1,18 @@
+#Spam filter
+
+s1 = "Make a lot of money"
+
+s2 = "buy now"
+
+s3 = "Subscribe This"
+
+s4 = "Click This"
+
+
+a = input("Enter your message : ")
+
+if((s1 in a) or (s2 in a) or (s3 in a) or (s4 in a)):
+    print("it's a spam")
+
+else:
+    print("is not a spam")
