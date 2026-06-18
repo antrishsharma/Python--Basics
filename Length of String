@@ -1,0 +1,10 @@
+#Check length of string
+
+
+a = input("Enter your name : ")
+
+if(len(a)<=10):
+    print("in limit")
+
+else:
+    print(" not in limit")
