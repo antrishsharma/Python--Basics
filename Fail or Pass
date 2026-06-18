@@ -1,0 +1,23 @@
+#WAP to find wether the student fail; or pass
+
+
+a = int(input("Enter your Marks : "))
+b = int(input("Enter your Marks : "))
+c = int(input("Enter your Marks : "))
+
+a1 = (a/100)*100
+
+b1 = (b/100)*100
+
+c1 = (c/100)*100
+
+total = ((a+b+c)/300)*100
+
+if(total>=40):
+    if(a1 >= 33 and b1 >= 33 and c1 >= 33):
+        print(" you pass")
+    else:
+        print("fail")
+
+else :
+    print("Fail")
