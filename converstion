@@ -1,0 +1,9 @@
+#Tempreature conversion
+def temp(celsius):
+    
+
+    frah = ( celsius*9/5)+32
+
+    print(f"temorature is : {round(frah,2)}")
+
+  
