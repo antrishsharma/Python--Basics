@@ -1,0 +1,7 @@
+with open("hello.txt","w") as f:
+    f.write("Hello Brother\nWelcome to Python")
+
+with open("hello.txt","r") as f:
+    print(f.read())
+
+    
