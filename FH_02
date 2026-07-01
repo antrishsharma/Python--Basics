@@ -1,0 +1,11 @@
+f = open("fruit.txt","w")
+f.write("Apple\nBanana\nOrange\nMango")
+f.close()
+
+
+f = open("fruit.txt","r")
+text = f.readlines()
+print(text)
+print(type(text))
+print(text[2])
+f.close()
