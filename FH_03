@@ -1,0 +1,14 @@
+f = open("language.txt", "w")
+f.write("python\njava")
+f.close()
+
+f = open("language.txt","a")
+f.write("\nc++\njavascript")
+f.close()
+
+
+f = open("language.txt","r")
+text = f.read()
+print(text)
+
+f.close()
