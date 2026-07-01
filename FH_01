@@ -1,0 +1,13 @@
+f = open("college.txt","w")
+f.write("Name: Antrish Branch: CSE Semester: 2 College: ABC College")
+f.close()
+
+
+f = open("college.txt","r")
+text1 = f.readline()
+text2 = f.readline()
+
+print(text1)
+print(text2)
+
+f.close()
