@@ -1,0 +1,49 @@
+class College:
+
+    College_name = "ABC College"
+
+    def __init__(self,Student_name,Rollno):
+        self.Student_name = Student_name
+        self.Rollno = Rollno
+
+    def show_detail(self):
+        print("Name : ", self.Student_name)
+        print("Rollno : ",self.Rollno)
+
+    @classmethod
+    def change_college(cls,new_name):
+        cls.College_name = new_name
+
+
+    @staticmethod
+    def greet():
+        print("welcome to college")
+
+
+College.greet()
+
+s1 = College("Antrish",96)
+
+s2 = College("Anora",99)
+
+
+s1.show_detail()
+s2.show_detail()
+
+print(s1.College_name)
+print(s2.College_name)
+
+
+College.change_college("XYZ College")
+
+print(s1.College_name)
+print(s2.College_name)                
+
+s1.College_name = "PQR College" # is this only change s1 company
+
+
+
+print(s1.College_name)
+print(s2.College_name)            
+
+        
