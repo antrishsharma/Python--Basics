@@ -1,0 +1,10 @@
+class Bank:
+    def __init__(self,name,balance):
+        self.name = name
+        self.balance = balance
+
+s1 = Bank("Antrish",49999999999999)
+s2 = Bank("Anora" , 5999999999999999)
+
+
+     
