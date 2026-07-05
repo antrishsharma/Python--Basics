@@ -1,0 +1,15 @@
+with open("diary.txt","w") as f:
+    f.write("Today i learn python")
+
+
+
+with open("diary.txt","a") as f:
+    f.write("\nTommorow I Will Learn File Handling")
+
+
+with open("diary.txt","r") as f:
+    print(f.read())
+    
+
+   
+    
