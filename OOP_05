@@ -1,0 +1,42 @@
+class Bank:
+    bank_name = "American Express"
+
+    def __init__(self,name,balance):
+        self.name = name
+        self.balance = balance
+
+       
+        
+    #instance method
+    def show_detail(self):
+        print("Name : ",self.name)
+        print("Balance : ",self.balance)
+    
+
+   
+    @classmethod
+    def change_bank(cls,new_bank):
+        cls.change_bank = new_bank
+
+        
+    @staticmethod
+    def bank_rule():
+        print("Minimum balance is 100000")
+
+          
+
+Bank.bank_rule()
+s1 = Bank("Antrish",49083937496068)
+s2 = Bank("Anora",59089675906990790)
+
+s1.show_detail()
+s2.show_detail()
+        
+
+s1.bank_name = "JP MORGAN"    
+
+print(s1.bank_name)
+print(s2.bank_name)
+    
+
+    
