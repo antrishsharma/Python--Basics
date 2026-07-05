@@ -1,0 +1,20 @@
+with open("poem.txt","w") as f:
+    f.write("Twinkle twinkle little star\nHow I wonder what you are\nUp above the world so high\nLike a diamond in the sky")
+
+with open("poem.txt","r") as f:
+    count = 0
+
+    for line in f:
+        if 'diamond' in line:
+            count  = count + 1
+            break
+        else:
+            count = 0
+            
+
+    if count != 0:
+        print("found")
+
+    else:
+        print("Notfound")
+ 
