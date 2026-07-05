@@ -1,0 +1,9 @@
+with open("fruits.txt","w") as f:
+    f.write("Apple\nBanana\nOrange\nMango")
+
+
+with open("fruits.txt","r") as f:
+    text = f.readlines()
+    print(f"first fruits : {text[0]}")
+    print(f"last fruits : {text[3]}")
+    
