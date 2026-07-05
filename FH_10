@@ -1,0 +1,21 @@
+with open("story.txt","w") as f:
+    f.write("Python is amazing.\nPython is easy.\nPython is powerful.")
+
+
+with open("story.txt","r") as f:
+    text = f.readlines()
+    
+    print(f"total line : {len(text)}")
+
+
+with open("story.txt","r") as f:
+    text = f.read()
+    print(f"total character : {len(text)}")
+
+     
+
+    
+
+    
+    
+    
