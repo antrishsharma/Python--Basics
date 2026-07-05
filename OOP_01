@@ -1,0 +1,9 @@
+class dog:  #----> creating class
+    def bark(self): #-------> creating method / function
+        print("woof! wooof!")
+
+d1 = dog()#----->creating objects
+d2 = dog()
+
+d1.bark()#-----> whhat is this?
+d2.bark()
