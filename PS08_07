@@ -1,0 +1,9 @@
+def remstr(l,word):
+    l=[" harry ", " Rohan " , " Shubham " , " an "]
+
+    print(l.strip())
+    print(l.remove(word))
+    
+
+
+    
