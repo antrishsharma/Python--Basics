@@ -1,0 +1,4 @@
+def converter(a):
+    inches = 2.6*a
+    print(f"{round(inches,2)}cm")
+    
