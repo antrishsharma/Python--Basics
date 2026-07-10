@@ -1,0 +1,12 @@
+class Vehicle:
+    def start(self):
+        print("vehicle start")
+
+
+class car(Vehicle):
+    pass
+
+
+car1 = car()
+car1.start()
+    
