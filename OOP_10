@@ -3,10 +3,10 @@ class Vehicle:
         print("vehicle start")
 
 
-class car(Vehicle):
+class Car(Vehicle):
     pass
 
 
-car1 = car()
+car1 = Car()
 car1.start()
     
