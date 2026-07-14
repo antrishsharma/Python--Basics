@@ -1,0 +1,19 @@
+
+class Solution:
+    def findMiddleIndex(self, nums: List[int]) -> int:
+        n = len(nums)
+        sum_left = 0
+        total_sum = sum(nums)
+        for i in range(n):
+            sum_right = total_sum - sum_left - nums[i]
+
+            if sum_left == sum_right:
+                return i
+
+            sum_left += nums[i]
+
+
+        return -1         
+
+
+        
